@@ -1,0 +1,19 @@
+.welcome{
+  background-image:url(Assets/backgrounds/welcome.jpg);
+  text-align:center;
+  color:white;
+}
+.logo{
+  margin-left:30px;
+}
+.mouse_click{
+  margin-left:20px;
+}
+.content{
+  text-align: center;
+}
+.services{
+  text-align: center;
+  color: white;
+  background-image:url(Assets/backgrounds/services.jpg);
+}
