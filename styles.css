@@ -19,6 +19,9 @@
 }
 .contact{
   background-image:url(Assets/backgrounds/c_image.jpg);
+  color: white;
+  text-align: center;
+  align-content: center;
 }
 .container{
   align-items: center;
