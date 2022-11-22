@@ -20,3 +20,7 @@
 .contact{
   background-image:url(Assets/backgrounds/c_image.jpg);
 }
+.container{
+  align-items: center;
+  text-align: center;
+}
