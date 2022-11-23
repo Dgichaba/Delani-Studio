@@ -20,10 +20,38 @@
 .contact{
   background-image:url(Assets/backgrounds/c_image.jpg);
   color: white;
-  text-align: center;
-  align-content: center;
+  text-align:center;
+  align-content:center;
+  align-items: center;
+
 }
 .container{
-  align-items: center;
+  align-items:center;
+  text-align:center;
+}
+.form-group{
+  margin-top:50px;
+}
+.contact form{
+  margin-left:250px;
+}
+.col-2{
+  margin-left:350px;
+}
+.Portfolio{
+  margin-left: 100px;
+  margin-right: 300px;
   text-align: center;
+  padding-bottom:30px;
+}
+.Portfolio img{
+  height: 100px;
+  width: 100px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:10px;
+  margin-left: 100px;
+  margin-right:100px;
+  text-align: center;
+
 }
