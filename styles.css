@@ -1,17 +1,20 @@
 .welcome{
   background-image:url(Assets/backgrounds/welcome.jpg);
+  background-size: cover;
   text-align:center;
   color:white;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position: relative;
-
 }
-.logo{
-  margin-left:30px;
+#logo{
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 70px;
+  height: 70px;
 }
-.mouse_click{
-  margin-left:20px;
+#mouse_click{
+  animation:bounce 2s infinite;
+  padding-top: 22px;
+  margin-top: 10%;
+  padding-bottom: 30px;
 }
 .content{
   text-align: center;
@@ -20,9 +23,15 @@
   text-align: center;
   color: white;
   background-image:url(Assets/backgrounds/services.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contact{
   background-image:url(Assets/backgrounds/c_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   text-align:center;
   align-content:center;
@@ -30,11 +39,17 @@
 
 }
 
-.form-group{
+.form-control{
   margin-top:50px;
+  background: transparent;
+  color: white;
+  height: auto;
+
 }
 .contact form{
   margin-left:250px;
+  background: transparent; 
+  color: white;
 }
 .col-2{
   margin-left:350px;
@@ -48,11 +63,15 @@
   height:50px;
   width:50px;
 }
-.Portfolio{
+.Portfolio 
+{
   margin-left:150px;
   margin-right:350px;
-  text-align: center;
   padding-bottom:30px;
+  text-align: center;
+}
+.Portfolio h3{
+  text-align: center;
 }
 .Portfolio img{
   height:150px;
