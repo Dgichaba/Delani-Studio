@@ -1,4 +1,4 @@
-# Delani Studio
+# Delani-Studio
 #### Authored By : **Dorothy Gichaba**
 ## Description
 This project is a webpage for Delani Studio which gives a detailed description of who they are, the services they offer, their portfolio and a form for users to reach out incase they need support or have any concerns.
