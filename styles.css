@@ -9,7 +9,7 @@ html{
   background-repeat: no-repeat;
   padding-top: 15%;
   padding-bottom: 1%;
- font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
 }
 #logo{
   margin-top: 10px;
@@ -64,53 +64,55 @@ html{
 .what-we-do img{
  padding-top: 40px;
 }
-#Portfolio{
-  display: flex;
-  flex-wrap: wrap;
+#portfolio{
   align-items: center;
-  /* margin-left:18%;
-  margin-right: 16%;  */
+  font-family:'PT Serif', serif;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 10%;
 }
-.Portfolio h2{
+.portfolio h2{
   text-align: center;
   font-family:'PT Serif', serif;
   padding-top: 30px;
   padding-bottom:10px;
 }
 .col-md-3 img{
-  padding-left:10px;
-  padding-bottom: 20px; 
+  padding-left:5px;
+  padding-bottom: 50px; 
   max-width: 100%;
   max-height: 100%;
+
 }
 .contact{
   background-image:url(Assets/backgrounds/c_image.jpg);
-  background-size: 100;
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  text-align:center;
-  align-content:center;
-  align-items: center;
- font-family: 'PT Serif', serif;
+  background-position: center;
+  background-size: cover;
+}
+.contact h2{
+  text-align: center;
+  font-family:'PT Serif', serif;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
 }
 .form-control{
-  margin-top:50px;
-  background: transparent;
+  background: transparent !important;
   height: auto;
+  margin-left: 250px;
+  font-family:'PT Serif', serif;
+  
 }
-.contact form{
-  margin-left:250px;
-  margin-top: 50px;
-  background: transparent; 
-  color: white;
- font-family: 'PT Serif', serif;
-}
-.col-2{
-  margin-left:350px;
+.form-control::-webkit-input-placeholder { 
+  color: white; 
 }
 
+.col-2{
+  margin-left: 47%;
+}
 
 .social_icons{
   padding-left:50px;
