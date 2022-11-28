@@ -86,9 +86,12 @@ function sendMessage(){
   var email=$("#email").val();
   var message=$("#message").val();
   if (name === "" || email==="" || message===""){
-    $("#error").html("Please fill in all fields!");
+    $("#response").html("");
+    //$("#error").html("Please fill in all fields!");
  }else{
-  alert("Thank you " + name + "! Your message has been received. We shall get back to you shortly."); 
-  //document.getElementById(form1)          
+  $("#error").html("");
+  $("#response").focus();
+  $("#response").html("Thank you " +name+"! Your message has been received. We shall get back to you shorty");
+  //alert("Thank you " + name + "! Your message has been received. We shall get back to you shortly.");          
 };
 }
