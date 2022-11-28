@@ -134,19 +134,24 @@ html{
 #text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8{
   position: absolute;
   display: none;
-  opacity:0.3;
-  width: 19%;
-  font-size: 20px;
-  bottom:15px;
-  text-align:start;
+  opacity:1;
+  width: 16%;
+  bottom:35px;
+  /* text-align:start; */
   text-align: center;
-  transition: .5s ease;
   color: black;
+  transition: .5s ease;
   font-weight:bold;
   transition: .5s ease;
-  background-color:#f9f2f2;
-  top:15px;
+  top:20px;
   padding-top: 90px;
-  font-family: cursive;
+  border-radius: 1px;
+  font-size: 35px;
+  margin-top: 16px;
+  padding: 10px 5px 100px;
+  border: 3px solid;
+  color: white;
+  margin-left: 20px;
 }
+
 
