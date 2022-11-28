@@ -8,7 +8,10 @@ html{
   color: white;
   text-align: center;
   padding-top: 17%;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+}
+home h1{
+  font-size: 50px;
 }
 #logo{
   margin-top: 10px;
@@ -26,7 +29,7 @@ html{
   text-align: center;
   padding-bottom: 30px;
   padding-top: 40px;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
 }
 .services{
   text-align: center;
@@ -35,13 +38,13 @@ html{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
   padding-top: 10%;
   padding-bottom:10%;
 }
 .what-we-do{
   text-align: center;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -53,7 +56,7 @@ html{
 }
 #design, #development, #product-management{
   display: none;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 #design .heading,#development .heading,#product-management .heading{
@@ -63,7 +66,7 @@ html{
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
   padding-bottom: 40px;
 }
 
@@ -92,7 +95,7 @@ html{
 }
 .contact h2{
   text-align: center;
-  font-family:'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   padding-top: 50px;
   padding-bottom: 10px;
@@ -102,11 +105,12 @@ html{
   background: transparent !important;
   height: auto;
   margin-left: 250px;
-  font-family:'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
   
 }
+
 .form-control::-webkit-input-placeholder { 
-  color: white; 
+  color: white;
 }
 
 .col-2{
@@ -118,7 +122,7 @@ html{
   padding-top:30px;
   padding-bottom:30px;
   text-align: center;
-  font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .social_icons img{
@@ -137,7 +141,7 @@ html{
   opacity:1;
   width: 16%;
   bottom:35px;
-  /* text-align:start; */
+  text-align:start;
   text-align: center;
   color: black;
   transition: .5s ease;
@@ -146,12 +150,13 @@ html{
   top:20px;
   padding-top: 90px;
   border-radius: 1px;
-  font-size: 35px;
+  font-size: 32px;
   margin-top: 16px;
   padding: 10px 5px 100px;
   border: 3px solid;
   color: white;
   margin-left: 20px;
+font-family: 'Roboto', sans-serif;
 }
 
 
