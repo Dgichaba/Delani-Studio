@@ -10,9 +10,9 @@
   <link href="styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div class="welcome">
-    <img src="Assets/logo/logo.png" id="logo">
+<body class="main">
+  <div class="home">
+    <img src="Assets/logo/logo.png" id="logo" alt="logo">
     <h1>WELCOME</h1>
     <h1>TO DELANI STUDIO<h1>
     <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<h5>
@@ -41,9 +41,9 @@
             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
             <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
-          <div id ="d_image">
-            <h5>DESIGN</h5>
+          <div id ="des_image">
             <img src="Assets/services_icons/design_icon.png">
+            <h5>DESIGN</h5>
           </div>
         </div>
         <div class="col-md-4">
@@ -53,9 +53,9 @@
             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and <br> pair programming.
               .</p>
           </div>
-          <div id ="d_image">
-            <h5>DEVELOPMENT</h5>
+          <div id ="dev_image">
             <img src="Assets/services_icons/dev_icon.png">
+            <h5>DEVELOPMENT</h5>
           </div>
         </div>
         <div class="col-md-4">
@@ -65,76 +65,82 @@
             <p>This iterative process allows for changes as business requirements evolve.
             </p>
           </div>
-          <div id ="d_image">
-            <h5>PRODUCT MANAGEMENT</h5>
+          <div id ="pm_image">
             <img src="Assets/services_icons/product_icon.png">
+            <h5>PRODUCT MANAGEMENT</h5>
           </div>    
         </div>
       </div>
     </div>
   </div>   
   </div>
-    <div class="portfolio">
-      <h2>PORTFOLIO</h2>
-      <div class="row" id="portfolio">
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work4.jpg">
-          <p id="overlay" class="text" style="display: none;">Black surface</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work3.jpg">
-          <p id="overlay" class="text" style="display: none;">Ontario Security</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work2.jpg">
-          <p id="overlay" class="text" style="display: none;">Pyramids</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work1.jpg">
-          <p id="overlay" class="text" style="display: none;">Jim Carry</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work5.jpg">
-          <p id="overlay" class="text" style="display: none;">Have a good day</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work6.jpg">
-          <p id="overlay" class="text" style="display: none;">Form</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work7.jpg">
-          <p id="overlay" class="text" style="display: none;">Buerned Logo</p>
-        </div>
-        <div class="col-md-3">
-          <img src="Assets/portfolio/work8.jpg">
-          <p id="overlay" class="text" style="display: none;">Giraffe Restaurant</p>
-        </div>
+  <div class="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div class="row" id="portfolio">
+      <div class="col-md-3" id="work1">
+        <img src="Assets/portfolio/work4.jpg" alt="work1">
+        <p id="text1" class="text">black studio</p>
+      </div>
+      <div class="col-md-3" id="work2">
+       <img src="Assets/portfolio/work3.jpg" alt="work2">
+       <p id="text2" class="text">ontario security</p>
+      </div>
+      <div class="col-md-3" id="work3">
+        <img src="Assets/portfolio/work2.jpg" alt="work3">
+        <p id="text3" class="text">pyramids</p>
+      </div>
+      <div class="col-md-3" id="work4">
+        <img src="Assets/portfolio/work1.jpg" alt="work4">
+        <p id="text4" class="text">jim carrey</p>
       </div>
     </div>
+    <div class="row" id="portfolio">
+      <div class="col-md-3" id="work5">
+        <img src="Assets/portfolio/work5.jpg" alt="work5">
+        <p id="text5" class="text">Have A Good Day</p>
+      </div>
+      <div class="col-md-3" id="work6">
+        <img src="Assets/portfolio/work6.jpg" alt="work6">
+        <p id="text6" class="text">programme</p>
+      </div>
+      <div class="col-md-3" id="work7">
+        <img src="Assets/portfolio/work7.jpg" alt="work7">
+        <p id="text7" class="text">burned logo</p>
+      </div>
+      <div class="col-md-3" id="work8">
+        <img src="Assets/portfolio/work8.jpg" alt="work8">
+        <p id="text8" class="text">Giraffe restaurant</p>
+      </div>
+    </div>
+  </div>
+    
     <div class="contact">
       <h2>CONTACT US</h2>
-      <div class="contact-form">
-        <form>
+      <form id="form1">
+        <div class="contact-form">
           <div class="row">
             <div class="col-4 pl-2 pb-2">
-              <input type="text" style="color:white;" class="form-control" placeholder="Name..." value="">
+              <input type="text" class="form-control" id="name" placeholder="Name..." value="" required>
             </div>
             <div class="col-4 pl-2 pb-2">
-              <input type="text" style="color:white;" class="form-control" placeholder="Email..." value="">
+              <input type="email" class="form-control" id="email" placeholder="Email..." value="" required>
             </div>
           </div>
           <div class="row">
             <div class="col-8">
-              <textarea class="form-control" style="color:white;" rows="8" name="message" id="message" placeholder="Your message here..."></textarea>
+              <textarea class="form-control" rows="8" id="message" placeholder="Your message here..." required></textarea>
             </div>
           </div>
           <div class="row">
             <div class="col-2 pb-2 pt-2">
-              <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+              <button class="btn btn-primary" id= "submit" type="submit" onclick="sendMessage()">Submit</button>
             </div>
           </div>
-        </form>
-      </div>    
+        </div>
+      </form>
+              <p class="error" id="error"></p>
+              <p class="response" id="response"></p>
+
     </div>
     <div class="social_icons">
         <img src="Assets/social_icons/twitter.png">
@@ -149,6 +155,8 @@
         <p> DELANI STUDIO <br> 2019 </p>
       </div>
     </div>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
 

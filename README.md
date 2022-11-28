@@ -20,6 +20,8 @@ This project is a webpage for Delani Studio which gives a detailed description o
 If you run into any issue or have questions, ideas or concerns, kindly reach me though the contacts provided or feel free to make a contibution to the code.
 ## Setup Instructions
 Clone the repository. Navigate to the folder and double click the index.html file to open it in a browser then you can explore the portfolio sections.
+## Known bugs
+This web application cannot fuction in the absence of internet connection.
 ## List of contributors 
 Dorothy Gichaba
 ## Link to live site on GitHub Pages
